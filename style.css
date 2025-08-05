@@ -21,7 +21,7 @@ body{
 .flex{
     display: flex;
 }
-.meu-contato button{
+button{
     padding: 10px 20px;
     font-size: 15px;
     font-weight: 500;
@@ -109,7 +109,7 @@ section.topo-do-site .flex{
 }
 /* ESTILOS DOS PROJETOS */
 section.especialidades{
-    padding: 40px 4%;
+    padding: 100px 4%;
 }
 section.especialidades .flex{
     gap: 60px;
@@ -135,7 +135,7 @@ section.especialidades .flex{
 }
 /* SOBRE */
 section.sobre{
-    padding: 40px 4%;
+    padding: 70px 4%;
 }
 section.sobre .flex{
     align-items: center;
@@ -158,13 +158,18 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
-.sobre .txt-sobre .social{
+.sobre .txt-sobre .social button{
     width: 60px;
     height: 60px;
-    border-radius: 30px;
+    border-radius: 50%;
     border: none;
-    background-color: rgb(255, 0, 0);
-    font-size: 22px;
+    font-size: small;
     cursor: pointer;
     margin: 0 5px;
+    display: inline;
+    transition: .2s;
+}
+.sobre .img-sobre img{
+    height: 300px;
+    width: 300px;
 }
