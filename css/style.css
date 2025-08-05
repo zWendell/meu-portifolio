@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans Code", monospace;
+    font-size: 13px;
+    font-weight: 600;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}   
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.interface img{
+    height: 150px;
+    width: 150px;
+}
+.flex{
+    display: flex;
+}
+.meu-contato button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(255, 0, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: red;
+    font-size: 38px;
+}
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #777777;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.meu-contato button:hover{
+    color: white;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.714);
+    transform: scale(1.05);
+}
+/* ESTILO DO TOPO DO SITE*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h1{
+    color: white;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0;
+}
+.topo-do-site .img-topo-site img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0% {
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+/* ESTILOS DOS PROJETOS */
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.73);
+}
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: red;
+}
+.especialidades .especialidades-box h3{
+    font-size: 20px;
+    margin: 15px 0;
+}
