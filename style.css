@@ -40,6 +40,11 @@ h2.titulo span{
     color: red;
     font-size: 38px;
 }
+button:hover{
+    color: white;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.714);
+    transform: scale(1.05);
+}
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -65,11 +70,6 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
-}
-.meu-contato button:hover{
-    color: white;
-    box-shadow: 0 0 8px rgba(255, 0, 0, 0.714);
-    transform: scale(1.05);
 }
 /* ESTILO DO TOPO DO SITE*/
 section.topo-do-site{
@@ -152,8 +152,19 @@ section.sobre .flex{
 .sobre .txt-sobre h2 span{
     color: rgb(255, 0, 0);
     display: block;
+    font-size: 40px;
 }
 .sobre .txt-sobre p{
     margin: 20px 0;
     text-align: justify;
+}
+.sobre .txt-sobre .social{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
 }
