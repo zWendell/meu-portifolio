@@ -177,3 +177,15 @@ section.sobre .flex{
     height: 300px;
     width: 300px;
 }
+/* ESTILO POTIFOLIO */
+section.portifolio{
+    padding: 80px 4%;
+}
+section.portifolio .flex{
+    justify-content: space-around;
+}
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: rgb(150, 0, 0);
+}
